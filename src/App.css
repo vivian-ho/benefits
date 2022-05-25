@@ -1,0 +1,93 @@
+.container {
+  display: block;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+}
+
+.company-card {
+  border: 1px solid gray;
+  text-align: center;
+  padding: 10px;
+  margin: 20px;
+}
+
+.info {
+  display: flex;
+}
+
+.employee-count, .state, .plan-year {
+  width: 30%;
+  padding: 5px;
+}
+
+.label {
+  padding: 5px;
+}
+
+.value {
+  padding: 5px;
+  font-weight: 600;
+}
+
+.moreOrLess {
+  padding: 0;
+  margin: 0;
+}
+
+.arrow-up {
+  width: 0; 
+  height: 0; 
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  
+  border-bottom: 8px solid rgb(90, 143, 173);
+  top: 5px;
+  margin-left: 5px;
+}
+
+.arrow-down {
+  width: 0; 
+  height: 0; 
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  
+  border-top: 8px solid rgb(90, 143, 173);
+  top: 5px;
+  margin-left: 5px;
+}
+
+.icon-container {
+  position: relative;
+  margin: auto;
+  block-size: fit-content;
+  width: fit-content;
+  color: rgb(90, 143, 173);
+  font-size: small;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+.right {
+  position: absolute;
+}
+
+.more {
+  margin: auto;
+  width: 40%;
+  text-align: left;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding: 5px;
+}
+
+.more-label {
+  font-weight: 500;
+}
